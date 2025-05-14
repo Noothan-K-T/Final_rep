@@ -206,7 +206,7 @@ app.post("/download-pdf", async (req, res) => {
     const fullHTML = `
       <html>
         <head><style>${resumeCSS}</style></head>
-        <body><div class="output-box">${templateCode}</div></body>
+        <body><div class="output-box">${html}</div></body>
       </html>
     `;
 
